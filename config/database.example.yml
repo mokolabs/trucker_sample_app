@@ -1,0 +1,20 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: trucker_development
+  username: root
+  password:
+
+test:
+  adapter: mysql
+  encoding: utf8
+  database: trucker_test
+  username: root
+  password:
+
+legacy:
+  adapter: mysql
+  encoding: utf8
+  database: trucker_legacy
+  username: root
+  password:
