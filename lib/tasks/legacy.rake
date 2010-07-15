@@ -3,7 +3,7 @@ namespace :db do
 
     desc 'Migrates posts'
     task :posts => :environment do
-      migrate :posts
+      Trucker.migrate :posts
     end    
 
   end
