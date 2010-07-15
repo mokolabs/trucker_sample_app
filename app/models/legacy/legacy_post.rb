@@ -3,8 +3,8 @@ class LegacyPost < LegacyBase
 
   def map
     {
-      :field_one => self.old_field_one.squish,
-      :field_two => self.old_field_two.squish
+      :name => self.headline.squish,
+      :body => self.body.squish
     }
   end
 
