@@ -5,7 +5,7 @@ This is a sample app that shows how to use the Trucker gem to migrate legacy dat
 
 
 Installation
-============
+------------
 
 1. Copy database.example.yml to database.yml, and edit appropriately.
 
@@ -21,7 +21,7 @@ Installation
 
 
 More Info
-=========
+---------
 
 http://github.com/mokolabs/trucker
 
