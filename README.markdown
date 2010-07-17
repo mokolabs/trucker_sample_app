@@ -1,7 +1,7 @@
 Trucker Sample App
 ==================
 
-This is a sample app that shows how to use the Trucker gem to migrate legacy data.
+This is a sample app that shows how to use the [Trucker](http://github.com/mokolabs/trucker) gem to migrate legacy data.
 
 
 Installation
@@ -13,9 +13,9 @@ Installation
 
 3. Run mysql -u root trucker_legacy < db/old_blog_posts.sql to import your legacy data.
 
-4. Run script/server to launch the rails app.
+4. Run script/server to launch the app.
  
-4. Run rake db:migrate:posts to migrate old blog posts.
+4. Run rake db:migrate:posts to migrate some old blog posts.
 
 5. That's it!
 
