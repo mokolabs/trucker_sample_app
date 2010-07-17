@@ -23,5 +23,5 @@ Installation
 More Info
 ---------
 
-http://github.com/mokolabs/trucker
+[http://github.com/mokolabs/trucker](http://github.com/mokolabs/trucker)
 
