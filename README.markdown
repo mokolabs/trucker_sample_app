@@ -13,11 +13,13 @@ Installation
 
 3. Run mysql -u root trucker_legacy < db/old_blog_posts.sql to import your legacy data.
 
-4. Run script/server to launch the app.
- 
-4. Run rake db:migrate:posts to migrate some old blog posts.
+4. Run rake db:migrate to create the Post table.
 
-5. That's it!
+5. Run script/server to launch the app.
+ 
+6. Run rake db:migrate:posts to migrate some old blog posts.
+
+7. That's it!
 
 
 More Info
